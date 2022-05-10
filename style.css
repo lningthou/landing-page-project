@@ -4,14 +4,26 @@
     font-family: "Roboto", sans-serif;
 }
 
+body {
+    display:flex;
+    flex-flow: column nowrap;
+}
+
 ul {
     list-style-type: none;
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .hero {
     display: flex;
     flex-flow: column nowrap;
-    padding: 20px 300px;
+    padding: 20px 300px 125px;
     background-color: #1f2937;
     gap: 125px;
 }
@@ -78,8 +90,63 @@ ul {
     font-weight: bold;
 }
 
-a {
-    text-decoration: none;
-    font-size: 18px;
-    color: #e5e7eb;
+.information {
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+    gap: 50px;
+}
+
+.images {
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    gap: 40px;
+}
+
+.image {
+    display:flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.imagebox {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #3882f6;
+}
+
+.imagetext {
+    width: 200px;
+    height: auto;
+}
+
+#informationtext {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.quote {
+    padding: 100px 500px;
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+#quotetext { 
+    font-style: italic;
+    font-size: 36px;
+}
+
+#quoteauthor {
+    font-weight: bold;
+    align-self: flex-end;
 }
