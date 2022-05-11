@@ -196,3 +196,12 @@ a {
     width: 125px;
     font-size: 15px;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
