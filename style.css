@@ -149,4 +149,50 @@ a {
 #quoteauthor {
     font-weight: bold;
     align-self: flex-end;
+    font-size: 16px;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 125px;
+}
+
+.ctabox {
+    display: flex;
+    background-color: #3882f6;
+    padding: 20px 100px;
+    width: 1000px;
+    height: 100px;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ctatext {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#header {
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#desc {
+    color: #e5e7eb;
+}
+
+#ctabutton {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-color: #f9faf8;
+    border-radius: 6px;
+    font-weight: bold;
+    border-style: solid;
+    padding: 10px 10px;
+    width: 125px;
+    font-size: 15px;
 }
